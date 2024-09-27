@@ -2,6 +2,7 @@ import React from "react";
 import MovieList from "../components/MovieList";
 import SearchBar from "../components/SearchBar";
 import PageContainer from "../components/styled/PageContainer";
+import Upcoming from "../components/Upcoming";
 import TrendingNow from "../components/TrendingNow";
 
 export default function MainPage() {
@@ -10,6 +11,7 @@ export default function MainPage() {
       <SearchBar />
       <MovieList />
       <TrendingNow />
+      <Upcoming  />
     </PageContainer>
   );
 }
